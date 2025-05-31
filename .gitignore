@@ -1,4 +1,25 @@
-skin-env/
+# Byte-compiled / cache
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+
+# Virtual environment
+skin-env/
+env/
+
+# OS files
 .DS_Store
+
+# Model & log files
+*.h5
+*.ckpt
+*.pth
+models/
+outputs/
+
+# Notebooks checkpoints
+.ipynb_checkpoints
+
+# Data files (if not pushing full dataset)
+data/
+
